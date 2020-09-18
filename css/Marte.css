@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+    background-color: darkgrey;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: .1rem solid darkslategray;
+    align-items: center;
+}
