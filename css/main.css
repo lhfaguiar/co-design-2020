@@ -1,7 +1,22 @@
+body {
+    background-color: rgb(181, 179, 179);
+}
+
 header {
     color: black;
+    text-align: center;
 }
 
 a {
+    color: black;
+}
 
+h1 {
+    text-align: center;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+    border: 3px solid black;
 }
