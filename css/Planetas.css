@@ -1,3 +1,6 @@
+html {
+    height:100%
+}
 body {
     display: flex;
     flex-direction: column; 
@@ -22,7 +25,11 @@ header {
      margin: 1rem;
      padding: 1rem;
      border: .1rem solid darkslategray;
+     border-radius: 1rem;
      align-items: center;
-     
+     color: inherit;
+     font-weight: bold;
+     text-decoration: none;
+     background-color: lightgrey;
      
  }
