@@ -1,35 +1,41 @@
 html {
-    height:100%;
+    height:100%
 }
+
 body {
     display: flex;
     flex-direction: column; 
+    justify-content: center;
     height: 100%;
     background-color: darkgrey;
     justify-content: center;
     margin: 1rem;
-    padding: 1rem;
 
 }
 
 header {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
     margin: 1rem;
     padding: 1rem;
 }
 
-
  a {
      display: flex;
+     flex-direction: row;
      justify-content: center;
      margin: 1rem;
      padding: 1rem;
      border: .1rem solid darkslategray;
-     align-items: center;     
+     border-radius: 1rem;
+     color: inherit;
+     font-weight: bold;
+     text-decoration: none;
+     background-color: lightgrey;
+     
+     
  }
-
 
 h1 {
     display: flex;
