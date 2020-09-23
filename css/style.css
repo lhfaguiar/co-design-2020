@@ -1,5 +1,6 @@
 html {
-    height:100%
+    height:100%;
+    font-family: "Roboto";
 }
 
 
@@ -25,7 +26,6 @@ header {
 }
 h1 {
     color:#fffca3;
-    font-family: "Roboto";
     font-weight: 400;
 }
 
@@ -46,7 +46,6 @@ h2 {
      border: .1rem solid white;
      border-radius: 1rem;
      color: #fffca3;
-     font-family: "Roboto";
      font-weight: 400;
      text-decoration: none;
      background-color: #243966;
@@ -54,3 +53,17 @@ h2 {
      
  }
 
+
+.engloba-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #fffca3;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #243966;
+    align-items: center;
+}
