@@ -7,7 +7,7 @@ body {
     flex-direction: column; 
     justify-content: center;
     height: 100%;
-    background-color: darkgrey;
+    background-color: #0e0840;
     justify-content: center;
     margin: 1rem;
 
@@ -19,6 +19,21 @@ header {
     justify-content: center;
     margin: 1rem;
     padding: 1rem;
+    border: .1rem solid white;
+    border-radius: 1rem;
+}
+h1 {
+    color:#fffca3;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
 }
 
  a {
@@ -27,26 +42,14 @@ header {
      justify-content: center;
      margin: 1rem;
      padding: 1rem;
-     border: .1rem solid darkslategray;
+     border: .1rem solid white;
      border-radius: 1rem;
-     color: inherit;
-     font-weight: bold;
+     color: #fffca3;
+     font-family: "Roboto";
+     font-weight: 400;
      text-decoration: none;
-     background-color: lightgrey;
+     background-color: #243966;
      
      
  }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-    padding: 1rem;
-}
-
-img {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-    padding: 1rem;
-}
